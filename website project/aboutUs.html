@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="About Us" />
+    <title>About Us</title>
+    <link href="styles.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/10ea627b79.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--navbar section-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark homeNav">
+
+        <a class="navbar-brand" href="index.html">Astronomy Shopping Site</a>
+        <button class="shoppingCart">
+            <a class="navBtnLinks" href="account.html"><i class="fa-solid fa-user fa-2xl"></i></a>
+        </button>
+        <button class="shoppingCart">
+            <a class="navBtnLinks" href="checkOut.html"><i class="fa-solid fa-cart-shopping fa-2xl"><span id="cart" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger" style="font-size: 15px;">0</span></i></a> 
+        </button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="aboutUs.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="shop.html">Shop</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main class="shopCards">
+        <h1 class="staffHeading">Our Team</h1>
+        <p class="staffText">Here at the Astronomy Shopping Site we pride ourselves on customer service. All our memebers of staff are keen Astronomy enthusiasts so feel free to ask them anything. We deliver quality produts to our customers in an effort to keep people gazing at the stars. Our staff members are hard working employees that are dedicated to the job.</p>
+        <div class="card mb-3 horizontalCard" style="max-width: 960px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="imgs/staff.jpg" class="img-fluid rounded-start staffImg" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Staff</h5>
+                        <p class="card-text">This photo was taking at the launch of our business which has grown tremendously thanks to your support!</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="reasearchHeading">Their Astronomy Reasearch</h2>
+        <p class="staffText">Our staff often conduct astronomy reasearch in their own time and have come back with some impressive results. To show that we encourage this we've started to showcase some of their reasearch on a section of our webpage. Below is an example of one employee that has made some contributions.</p>
+        <div class="card mb-3 horizontalCard" style="max-width: 960px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="imgs/employee.jpg" class="img-fluid rounded-start employeeImg" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Emily's Reasearch</h5>
+                        <p class="card-text">Emily started working with just over 2 years ago and was a passionate astronomer well before that. She had previously bought equipment from our site and used it to conduct some astronomy reasearch for fun. Her findings can be found on her website for those that are interested. We are proud to have her on the team here at the Astronomy Shopping Site.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h3 class="aboutUsText">About Us</h3>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h4 class="footerText">A Bit About Us</h4>
+                    <p class="footerText">Here at the Astronomy Shopping Site we pride ourselves on customer service. All our memebers of staff are keen Astronomy enthusiasts so feel free to ask them anything. We deliver quality produts to our customers in an effort to keep people gazing at the stars.</p>
+                </div>
+                <div class="col">
+                    <h4 class="footerText">Links to Our Pages</h4>
+                    <li>
+                        <a class="nav-link text-light" href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-light" href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-light" href="aboutUs.html">About Us</a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-light" href="shop.html">Shop</a>
+                    </li>
+                </div>
+                <div class="col">
+                    <h4 class="footerText">Our Social Media</h4>
+                    <li>
+                        <a class="nav-link text-light" href="#">Instagram <i class="fa-brands fa-instagram" style="font-size: 25px; background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%); border-radius: 5px; "></i></a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-light" href="#">Whatsapp <i class="fa-brands fa-whatsapp" style="font-size: 25px; color: #25D366; "></i></a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-light" href="#">Youtube <i class="fa-brands fa-youtube" style="font-size: 25px; color: #FF0000; "></i></a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-light" href="#">Facebook <i class="fa-brands fa-facebook" style="font-size: 25px; color: #3b5998; "></i></a>
+                    </li>
+
+                </div>
+                <div class="col">
+                    <h4 class="footerText">Location</h4>
+                    <p class="footerText">We are located near Astronomy Ireland Headquarters as depicted in the google map link below.</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19487028.92479522!2d-42.20324309999999!3d53.400737299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485b5e9f236f76b3%3A0x4eb929a7f6c8dcc4!2sAstronomy%20Ireland%20Headquarters!5e0!3m2!1sen!2sie!4v1672238649236!5m2!1sen!2sie" width="auto" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+<script src="script.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>

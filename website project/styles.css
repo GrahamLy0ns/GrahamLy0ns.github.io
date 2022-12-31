@@ -1,0 +1,201 @@
+body {
+  background-color: lawngreen;
+}
+
+.navBtnLinks {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+li {
+  padding-top: 10px;
+  list-style: none;
+}
+
+.homeNav {
+  background-image: url("imgs/purple-star-sky.jpg");
+  background-size: cover;
+  height: 75px;
+}
+
+.shoppingCart {
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 52px;
+  position: relative;
+  right: 10px;
+}
+
+.mainPageShopContent {
+  grid-column: 1;
+  grid-row: 1;
+  z-index: 2;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bootstrapCarousel {
+  grid-column: 1;
+  grid-row: 1;
+  z-index: 1;
+}
+
+.homeMain {
+  display: grid;
+}
+
+footer {
+  background-image: url("imgs/purple-star-sky.jpg");
+  height: auto;
+  width: 100%;
+}
+
+.footerText {
+  color: white;
+  width: 250px;
+}
+
+.aboutUsText {
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.shopCards {
+  height: auto;
+  width: 100%;
+  background-color: #292b2c;
+  padding: 30px;
+}
+
+.horizontalCard {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.staffImg {
+  width: 300px;
+  float: left;
+  padding-right: 20px;
+}
+
+.staffHeading {
+  color: white;
+  text-align: center;
+}
+
+.reasearchHeading {
+  color: white;
+  text-align: center;
+  margin-top: 160px;
+}
+
+.staffText {
+  color: white;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.employeeImg {
+  width: 400px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contactForm {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.formLabel {
+  color: white;
+  padding-top: 20px;
+}
+
+.socialMediaHeading {
+  color: white;
+  text-align: center;
+}
+
+.location {
+  background-color: white;
+  border-radius: 10px;
+  height: auto;
+  width: 100%;
+}
+
+.locationText {
+  padding: 20px 20px 0 20px;
+}
+
+.map {
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.checkOutMain {
+  height: auto;
+  width: 100%;
+  background-color: #292b2c;
+  padding: 30px;
+}
+
+.accountMain {
+  height: auto;
+  width: 100%;
+  background-color: #292b2c;
+  padding: 30px;
+}
+
+.accountText {
+  color: white;
+}
+
+.accountHeading {
+  color: white;
+  text-align: center;
+}
+
+.registerLink {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+.registerLink:hover {
+  opacity: 0.75;
+}
+
+#itemDisplay {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.checkOutHeading {
+  text-align: center;
+}
+
+@media screen and (max-width: 960px) {
+  .homeNav {
+    height: auto;
+  }
+  .mainPageShopContent {
+    background-image: url("imgs/eclipse.jpg");
+    margin: 0;
+  }
+  .bootstrapCarousel {
+    visibility: hidden;
+  }
+  .homeMain {
+    position: relative;
+  }
+}/*# sourceMappingURL=styles.css.map */
